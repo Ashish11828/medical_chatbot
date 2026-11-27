@@ -1,31 +1,23 @@
-# medical_chatbot
-# 🏥 Medical Chatbot  
+# Chatbot Application Snapshot
 
-A cutting-edge **AI-powered medical chatbot** designed to provide **health advice**, assist with **symptom checking**, help with **appointment scheduling**, and deliver **personalized health tips**. This chatbot leverages **Natural Language Processing (NLP)** and **AI** to enhance user interaction and healthcare accessibility.
+## Repository contents
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&color=F7B801&center=true&width=700&lines=Medical+Chatbot+%7C+AI%2FML+%7C+Symptom+Checker)](https://github.com/Ashish11828)
+Despite the historical repository name, the committed implementation identifies itself as a **Parchem chemical-product chatbot**, not a medical-assistance system. The nested app uses Streamlit with Firebase authentication, conversational modules, and order/email handling. The previous medical-feature description did not match this source.
 
-## 💡 Key Features  
-- **Symptom Checker:** Understand symptoms and receive possible conditions or advice  
-- **Personalized Health Tips:** Based on medical history, conditions, and lifestyle  
-- **Appointment Booking:** Integration with healthcare providers for easy appointment scheduling  
-- **Medication Reminders:** Automatic notifications for prescription medication  
-- **Emergency Assistance:** Quick recommendations for urgent health concerns  
-- **Health Data Sync:** Integrates with wearable devices for health tracking  
-- **Doctor Consultation:** Connects users with real doctors (via API or integration with health platforms)
+## Project location
 
-## 🔧 Technologies Used  
-- **AI/NLP Frameworks:** OpenAI GPT, Rasa, Dialogflow, BERT  
-- **Backend:** Python (Flask, FastAPI), Node.js  
-- **Database:** Firebase, MongoDB, PostgreSQL  
-- **Frontend:** React, Vue.js (Web), Flutter (Mobile)  
-- **APIs & Integration:** FHIR (Health data), MedlinePlus, Google Health, Doctor Appointment APIs  
-- **Deployment:** Docker, AWS, Heroku
+The application root is `prachem-chatbot-main/prachem-chatbot-main/`. It contains `app.py`, `requirements.txt`, and the `parchem/` package. The nested README identifies the project as `parchem-ai-chatbot`; retain its existing attribution.
 
-## 🚀 Installation  
+## Local setup
 
-Clone the repository and set up the environment:
+1. Change into the application root above.
+2. Create and activate a Python virtual environment.
+3. Install dependencies with `python -m pip install -r requirements.txt`.
+4. Review `parchem/config.py` and the authentication, LLM, and email modules to configure your own services and credentials.
+5. Start the interface with `streamlit run app.py`.
 
-```bash
-git clone https://github.com/Ashish11828/medical-chatbot.git
-cd medical-chatbot
+The source depends on external services. Installation, service configuration, and end-to-end behavior have not been verified in this documentation pass. This repository does not establish medical capability or affiliation with the organization named by the imported project.
+
+## Committed files
+
+- `prachem-chatbot-main`/
